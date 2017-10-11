@@ -1,0 +1,10 @@
+@charset "utf-8";
+.code {
+	white-space: pre-wrap;
+	padding: 1px 5px;
+	color: #303336;
+	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+	background-color: #eff0f1;
+	display: block;
+    vertical-align: baseline;
+}
