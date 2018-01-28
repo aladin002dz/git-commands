@@ -75,3 +75,14 @@ Inside the code editor:
 - lines that start with a # are comments and will not be recorded
 - save the file after adding a commit message
 - close the editor to make the commit
+
+### Git Diff  
+To recap, the git diff command is used to see changes that have been made but haven't been committed, yet:  
+```
+$ git diff
+```
+This command displays:  
+
+- the files that have been modified
+- the location of the lines that have been added/removed
+- the actual changes that have been made
