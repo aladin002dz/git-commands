@@ -100,3 +100,14 @@ Globbing lets you use special characters to match patterns/characters. In the .g
   - a/z  
   - a/b/z  
   - a/b/c/z  
+  
+### Git Tag Recap
+To recap, the git tag command is used to add a marker on a specific commit. The tag does not move around as new commits are added.  
+```
+$ git tag -a beta
+```
+This command will:  
+
+- add a tag to the most recent commit
+- add a tag to a specific commit if a SHA is passed
+  
