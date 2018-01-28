@@ -86,3 +86,17 @@ This command displays:
 - the files that have been modified
 - the location of the lines that have been added/removed
 - the actual changes that have been made
+
+### Git Ignore  
+To recap, the **.gitignore** file is used to tell Git about the files that Git should not track. This file should be placed in the same directory that the **.git** directory is in.  
+Globbing lets you use special characters to match patterns/characters. In the .gitignore file, you can use the following:  
+
+- blank lines can be used for spacing  
+- # - marks line as a comment  
+- * - matches 0 or more characters  
+- ? - matches 1 character  
+- [abc] - matches a, b, or c  
+- ** - matches nested directories - a/**/z matches  
+  - a/z  
+  - a/b/z  
+  - a/b/c/z  
