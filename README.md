@@ -69,8 +69,8 @@ This command:
 
 - will open the code editor that is specified in your configuration
 - (check out the Git configuration step from the first lesson to configure your editor)  
+  
 Inside the code editor:  
-
 - a commit message must be supplied  
 - lines that start with a # are comments and will not be recorded
 - save the file after adding a commit message
