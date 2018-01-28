@@ -92,11 +92,11 @@ To recap, the **.gitignore** file is used to tell Git about the files that Git s
 Globbing lets you use special characters to match patterns/characters. In the .gitignore file, you can use the following:  
 
 - blank lines can be used for spacing  
-- # - marks line as a comment  
-- * - matches 0 or more characters  
-- ? - matches 1 character  
-- [abc] - matches a, b, or c  
-- ** - matches nested directories - a/**/z matches  
+- **#** - marks line as a comment  
+- __*__ - matches 0 or more characters  
+- **?** - matches 1 character  
+- **[abc]** - matches a, b, or c  
+- __**__ - matches nested directories - __a/**/z__ matches:  
   - a/z  
   - a/b/z  
   - a/b/c/z  
