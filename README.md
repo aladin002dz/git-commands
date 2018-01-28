@@ -15,8 +15,9 @@ to quit, use q
 $ git log --oneline
 ```
 
-This command:
+This command:  
 
-⋅⋅* lists one commit per line
-⋅⋅* shows the first 7 characters of the commit's SHA
-⋅⋅* shows the commit's message
+..* lists one commit per line  
+..* shows the first 7 characters of the commit's SHA  
+⋅⋅* shows the commit's message  
+
