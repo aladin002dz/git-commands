@@ -110,4 +110,21 @@ This command will:
 
 - add a tag to the most recent commit
 - add a tag to a specific commit if a SHA is passed
-  
+
+### Git Branch
+To recap, the git branch command is used to manage branches in Git:  
+```
+# to list all branches
+$ git branch
+
+# to create a new "footer-fix" branch
+$ git branch footer-fix
+
+# to delete the "footer-fix" branch
+$ git branch -d footer-fix
+```  
+This command is used to:  
+
+- list out local branches
+- create new branches
+- remove branches
