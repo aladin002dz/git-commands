@@ -31,4 +31,16 @@ This command:
 
 - displays the file(s) that have been modified
 - displays the number of lines that have been added/removed
-- displays a summary line with the total number of modified files and lines that have been added/removed
+- displays a summary line with the total number of modified files and lines that have been added/removed  
+
+### git log -p
+To recap, the -p flag (which is the same as the --patch flag) is used to alter how git log displays information:
+```
+$ git log -p
+```
+
+This command adds the following to the default output:
+
+- displays the files that have been modified
+- displays the location of the lines that have been added/removed
+- displays the actual changes that have been made
