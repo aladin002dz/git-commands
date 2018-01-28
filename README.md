@@ -50,7 +50,7 @@ to display details for a specific commit:
 $ git log -p fdf5493
 ```
 
-### Git Add Recap  
+### Git Add  
 The git add command is used to move files from the Working Directory to the Staging Index.  
 ```
 $ git add <file1> <file2> … <fileN>  
@@ -60,3 +60,18 @@ This command:
 - takes a space-separated list of file names  
 - alternatively, the period . can be used in place of a list of files to tell Git to add the current directory (and all nested files)  
 
+### Git Commit  
+The git commit command takes files from the Staging Index and saves them in the repository.  
+```
+$ git commit
+```
+This command:
+
+- will open the code editor that is specified in your configuration
+- (check out the Git configuration step from the first lesson to configure your editor)
+Inside the code editor:
+
+- a commit message must be supplied
+- lines that start with a # are comments and will not be recorded
+- save the file after adding a commit message
+- close the editor to make the commit
