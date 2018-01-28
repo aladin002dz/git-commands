@@ -49,3 +49,14 @@ to display details for a specific commit:
 ```
 $ git log -p fdf5493
 ```
+
+### Git Add Recap  
+The git add command is used to move files from the Working Directory to the Staging Index.  
+```
+$ git add <file1> <file2> … <fileN>  
+```
+This command:  
+
+- takes a space-separated list of file names  
+- alternatively, the period . can be used in place of a list of files to tell Git to add the current directory (and all nested files)  
+
