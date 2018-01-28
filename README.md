@@ -44,3 +44,8 @@ This command adds the following to the default output:
 - displays the files that have been modified
 - displays the location of the lines that have been added/removed
 - displays the actual changes that have been made
+
+to display details for a specific commit:   
+```
+$ git log -p fdf5493
+```
