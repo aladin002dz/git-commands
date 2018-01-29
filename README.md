@@ -127,4 +127,9 @@ This command is used to:
 
 - list out local branches
 - create new branches
-- remove branches
+- remove branches  
+  
+display all the history if a pseudo graphical way:
+``` 
+git log --oneline --decorate --graph --all
+``` 
