@@ -221,4 +221,11 @@ flags:
 $ git shortlog -s -n
 ``` 
 
-
+Filter By Author:
+```
+$ git log --author=aladin02dz
+```
+for author name with multiple words:  
+```
+git log --author="Paul Lewis"
+```
