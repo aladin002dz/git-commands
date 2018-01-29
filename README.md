@@ -128,10 +128,15 @@ This command is used to:
 - list out local branches
 - create new branches
 - remove branches  
-  
+
+shortcut to create and move to new branch:  
+``` 
+$ git checkout -b amend-my-name
+``` 
+
 display all the history if a pseudo graphical way:
 ``` 
-git log --oneline --decorate --graph --all
+$ git log --oneline --decorate --graph --all
 ``` 
 
 ### Merge
