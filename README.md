@@ -244,6 +244,20 @@ $ git log --grep=bug
 $ git log --grep bug
 $ git log --grep="border radius issue in Safari"
 ```
+  
+### Rebase 
+The git rebase command is used to do a great many things.  
+```
+# interactive rebase
+$ git rebase -i <base>
+
+# interactively rebase the commits to the one that's 3 before the one we're on
+$ git rebase -i HEAD~3
+```
+Inside the interactive list of commits, all commits start out as pick, but you can swap that out with one of the other commands (reword, edit, squash, fixup, exec, and drop).  
+  
+I recommend that you create a backup branch before rebasing, so that it's easy to return to your previous state. If you're happy with the rebase, then you can just delete the backup branch!  
+  
 ## Work on GitHub Project
 Before you start doing any work, make sure to look for the project's CONTRIBUTING.md file.  
 
@@ -272,3 +286,5 @@ A pull request is a request for the source repository to pull in your commits an
 - make some commits (ideally on a topic branch!)
 - push the commits back to your fork
 - create a new pull request and choose the branch that has your new commits
+
+
