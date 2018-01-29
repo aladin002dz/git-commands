@@ -229,3 +229,7 @@ for author name with multiple words:
 ```
 git log --author="Paul Lewis"
 ```
+looking at commit:   
+```
+$ git show 5966b66
+```
