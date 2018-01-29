@@ -194,3 +194,19 @@ Typically, ancestry references are used to indicate previous commits. The ancest
 
 - __^__ – indicates the parent commit
 - __~__ – indicates the first parent commit
+
+### Remote
+```
+$ git remote add repo-on-GitHub https://github.com/richardkalehoff/RichardsFantasticProject.git
+```
+
+A remote repository is a repository that's just like the one you're using but it's just stored at a different location. To manage a remote repository, use the git remote command:
+```
+$ git remote
+```
+- It's possible to have links to multiple different remote repositories.  
+- A shortname is the name that's used to refer to a remote repository's location. Typically the location is a URL, but it could be a file path on the same computer.  
+- git remote add is used to add a connection to a new remote repository.  
+- git remote -v is used to see the details about a connection to a remote.  
+
+
