@@ -133,3 +133,16 @@ display all the history if a pseudo graphical way:
 ``` 
 git log --oneline --decorate --graph --all
 ``` 
+
+### Merge
+To recap, the git merge command is used to combine branches in Git:  
+``` 
+$ git merge <other-branch>
+``` 
+
+There are two types of merges:  
+
+- Fast-forward merge – the branch being merged in must be ahead of the checked out branch. The checked out branch's pointer will just be moved forward to point to the same commit as the other branch.  
+- the regular type of merge
+  - two divergent branches are combined
+  - a merge commit is created
