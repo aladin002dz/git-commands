@@ -259,3 +259,11 @@ As a general best practice for writing commits:
 - use clear and descriptive commit messages
 - update the README file, if necessary  
 
+### Pull Request
+A pull request is a request for the source repository to pull in your commits and merge them with their project. To create a pull request, a couple of things need to happen:  
+
+- you must fork the source repository
+- clone your fork down to your machine
+- make some commits (ideally on a topic branch!)
+- push the commits back to your fork
+- create a new pull request and choose the branch that has your new commits
