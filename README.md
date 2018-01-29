@@ -237,4 +237,5 @@ filter down to just the commits that reference the word "bug":
 ```
 $ git log --grep=bug
 $ git log --grep bug
+$ git log --grep="border radius issue in Safari"
 ```
