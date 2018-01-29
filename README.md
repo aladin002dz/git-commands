@@ -151,3 +151,23 @@ There are two types of merges:
 - the regular type of merge
   - two divergent branches are combined
   - a merge commit is created
+
+### Merge Conflict 
+
+#### Merge Conflict Indicators Explanation
+The editor has the following merge conflict indicators:
+
+- <<<<<<< HEAD everything below this line (until the next indicator) shows you what's on the current branch
+- ||||||| merged common ancestors everything below this line (until the next indicator) shows you what the original lines were
+- ======= is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in
+- >>>>>>> heading-update is the ending indicator of what's on the branch that's being merged in (in this case, the heading-update branch)
+
+A merge conflict happens when the same line or lines have been changed on different branches that are being merged. Git will pause mid-merge telling you that there is a conflict and will tell you in what file or files the conflict occurred. To resolve the conflict in a file:  
+
+- locate and remove all lines with merge conflict indicators
+- determine what to keep
+- save the file(s)
+- stage the file(s)
+- make a commit
+
+Be careful that a file might have merge conflicts in multiple parts of the file, so make sure you check the entire file for merge conflict indicators - a quick search for <<< should help you locate all of them.
