@@ -177,3 +177,19 @@ To recap, the git revert command is used to reverse a previously made commit:
 ```
 $ git revert <SHA-of-commit-to-revert>
 ```
+
+### Reset 
+To recap, the git reset command is used erase commits:
+```
+$ git reset <reference-to-commit>
+```
+It can be used to:
+
+- move the HEAD and current branch pointer to the referenced commit
+- erase commits with the --hard flag
+- moves committed changes to the staging index with the --soft flag
+- unstages committed changes --mixed flag
+Typically, ancestry references are used to indicate previous commits. The ancestry references are:
+
+- __^__ – indicates the parent commit
+- __~__ – indicates the first parent commit
