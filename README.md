@@ -157,10 +157,10 @@ There are two types of merges:
 #### Merge Conflict Indicators Explanation
 The editor has the following merge conflict indicators:
 
-- <<<<<<< HEAD everything below this line (until the next indicator) shows you what's on the current branch
-- ||||||| merged common ancestors everything below this line (until the next indicator) shows you what the original lines were
-- ======= is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in
-- >>>>>>> heading-update is the ending indicator of what's on the branch that's being merged in (in this case, the heading-update branch)
+- __<<<<<<< HEAD__ everything below this line (until the next indicator) shows you what's on the current branch
+- __||||||| merged common ancestors__ everything below this line (until the next indicator) shows you what the original lines were
+- __=======__ is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in
+- __>>>>>>> heading-update__ is the ending indicator of what's on the branch that's being merged in (in this case, the __heading-update__ branch)
 
 A merge conflict happens when the same line or lines have been changed on different branches that are being merged. Git will pause mid-merge telling you that there is a conflict and will tell you in what file or files the conflict occurred. To resolve the conflict in a file:  
 
