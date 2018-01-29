@@ -189,7 +189,8 @@ It can be used to:
 - erase commits with the --hard flag
 - moves committed changes to the staging index with the --soft flag
 - unstages committed changes --mixed flag  
-Typically, ancestry references are used to indicate previous commits. The ancestry references are:
+
+Typically, ancestry references are used to indicate previous commits. The ancestry references are:   
 
 - __^__ – indicates the parent commit
 - __~__ – indicates the first parent commit
