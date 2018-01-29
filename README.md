@@ -209,4 +209,16 @@ $ git remote
 - git remote add is used to add a connection to a new remote repository.  
 - git remote -v is used to see the details about a connection to a remote.  
 
+### Log  
+A quick way that we can see how many commits each contributor has added to the repository  
+```
+$ git shortlog
+``` 
+flags:  
+- __-s__ to show just the number of commits (rather than each commit's message).  
+- __-n__ to sort them numerically (rather than alphabetically by author name).  
+``` 
+$ git shortlog -s -n
+``` 
+
 
