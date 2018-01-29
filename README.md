@@ -233,3 +233,7 @@ looking at commit:
 ```
 $ git show 5966b66
 ```
+filter down to just the commits that reference the word "bug":  
+```
+$ git log --grep=bug
+```
