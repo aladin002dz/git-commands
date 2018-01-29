@@ -239,3 +239,23 @@ $ git log --grep=bug
 $ git log --grep bug
 $ git log --grep="border radius issue in Safari"
 ```
+## Work on GitHub Project
+Before you start doing any work, make sure to look for the project's CONTRIBUTING.md file.  
+
+Next, it's a good idea to look at the GitHub issues for the project  
+
+- look at the existing issues to see if one is similar to the change you want to contribute
+- if necessary create a new issue
+- communicate the changes you'd like to make to the project maintainer in the issue  
+
+When you start developing, commit all of your work on a topic branch:  
+
+- do not work on the master branch
+- make sure to give the topic branch clear, descriptive name
+
+As a general best practice for writing commits:
+
+- make frequent, smaller commits
+- use clear and descriptive commit messages
+- update the README file, if necessary  
+
