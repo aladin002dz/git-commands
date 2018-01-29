@@ -208,7 +208,12 @@ $ git remote
 - A shortname is the name that's used to refer to a remote repository's location. Typically the location is a URL, but it could be a file path on the same computer.  
 - git remote add is used to add a connection to a new remote repository.  
 - git remote -v is used to see the details about a connection to a remote.  
-
+  
+Rename a remote:
+```
+$ git remote rename mine origin
+$ git remote rename source-repo upstream
+```
 ### Log  
 A quick way that we can see how many commits each contributor has added to the repository  
 ```
