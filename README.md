@@ -214,6 +214,22 @@ Rename a remote:
 $ git remote rename mine origin
 $ git remote rename source-repo upstream
 ```
+
+### Pull  
+You can think of the git pull command as doing two things:  
+
+1. fetching remote changes (which adds the commits to the local repository and moves the tracking branch to point to them)
+2. merging the local branch with the tracking branch
+The git fetch command is just the first step. It just retrieves the commits and moves the tracking branch. It does not merge the local   
+
+branch with the tracking branch. The same information provided to git pull is passed to git fetch:  
+
+- the shorname of the remote repository  
+- the branch with commits to retrieve  
+```
+$ git fetch origin master
+```
+
 ### Log  
 A quick way that we can see how many commits each contributor has added to the repository  
 ```
